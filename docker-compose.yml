@@ -1,0 +1,7 @@
+version: '3'
+services:
+    metex:
+        image: elixir:1.9
+        working_dir: /metex_elixir
+        volumes:
+            - .:/metex_elixir
